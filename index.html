@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Moon Store</title>
+  <link rel="stylesheet" href="TheMoon.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9339050507.js" crossorigin="anonymous"></script>
+
+</head>
+<!--Heading-->
+
+<body>
+  <div>
+    <img src="image/logo.jpg" alt="logo" height="130px" width="130px" style="float: left;">
+    <h1 class="heading">The Moon Store</h1>
+  </div>
+  <h5 style="color: darkgoldenrod;">A convenient store in Phnom Penh</h5>
+  <hr>
+  <!--Menu bar-->
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Product</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="https://www.facebook.com/themoonstorecambodia" add target="_blank"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  </ul>
+
+  <!--photos slide show-->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="image/front.jpg" style="width:100%">
+      <div class="text" style="color: black;"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="image/inside1.jpg" style="width:100%">
+      <div class="text" style="color: black;"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="image/inside2.jpg" style="width:100%">
+      <div class="text" style="color: black;"></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <hr width="50%">
+  <!--features-->
+  <section id="features" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center py-4">
+        <h1 class="jumbotron-heading">Features</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-part text-center">
+            <i class="text-primary fas fa-laptop fa-3x mb-3" aria-hidden="true"></i>
+            <div class="title">
+              <h4>Modern</h4>
+            </div>
+            <a class="btn btn-outline-primary" href="#">Learn More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-part text-center">
+            <i class="text-primary fas fa-store fa-3x mb-3" aria-hidden="true"></i>
+            <div class="title">
+              <h4>Quality</h4>
+            </div>
+            <a class="btn btn-outline-primary" href="#">Learn More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-part text-center">
+            <i class="text-primary fas fa-truck fa-3x mb-3" aria-hidden="true"></i>
+            <div class="title">
+              <h4>Good Service</h4>
+            </div>
+            <a class="btn btn-outline-primary" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr width="50%">
+  <!--Testimonial-->
+  <section id="testimonial" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center py-4">
+        <h1 class="jumbotron-heading">Testimonials</h1>
+      </div>
+      <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="#">
+                    <img class="img-fluid" src="image/front.jpg" alt="">
+                  </a>
+                  <div class="card-body">
+                    <div class="stars d-inline">
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                      exercitationem voluptatum enim facere atque. Quidem, amet. Animi iure laudantium, architecto iusto
+                      corrupti doloremque vel quod reprehenderit hic, aspernatur praesentium</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">By The Moon</small>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="#">
+                    <img class="img-fluid" src="image/inside1.jpg" alt="">
+                  </a>
+                  <div class="card-body">
+                    <div class="stars d-inline">
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa alias
+                      laboriosam, incidunt ipsa eos dignissimos deleniti, voluptatem, porro nulla et corporis quos
+                      adipisci voluptas quam officiis deserunt exercitationem excepturi?</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">By The Moon</small>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <a href="#">
+                    <img class="img-fluid" src="image/inside2.jpg" alt="">
+                  </a>
+                  <div class="card-body">
+                    <div class="stars d-inline">
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                      <span class="fas fa-star text-warning"></span>
+                    </div>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum totam
+                      repellat ab illum qui inventore illo autem. Enim ab exercitationem, neque consequuntur,
+                      repellendus id voluptatibus atque autem excepturi illo ut?</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">By The Moon</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--footer-->
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section about"></div>
+      <div class="footer-section links"></div>
+      <div class="footer-section contact-form"></div>
+    </div>
+  </div>
+  <div class="text-center py-4 bg-light mt-4">Copyright 2020 | All right reserved</div>
+
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+  </script>
+</body>
+
+</html>
