@@ -127,4 +127,9 @@ ul li a.active, .dot:hover {
   .prev, .next,.text {font-size: 11px}
 }
 
+hr.new {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
 /* footer */
